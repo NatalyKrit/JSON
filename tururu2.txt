@@ -17,18 +17,18 @@ vim new.json ;-insert-;koment;esc : wq.
 Отправить изменения на внешний репозиторий :
 git status ; git add ; git commit -m ".." ; git push.
 Создать файл preferences.json :
-
+touch preferences.json
 В файл preferences.json добавить информацию о своих предпочтениях
 (Любимый фильм ,любимый сериал ,любимая еда ,любимое время года ,сторона
 которую хотели бы посетить) в формате JSON :
-
+vim preferences.json; {"key":"value"...}
 Создеть файл sklls.json добавить информацию о скиллах которые будут изучены 
 на курсе в формате JSON :
-
+touch sklls.json;vim sklls.json {"key":"value",..}
 Отправить сразу 2 файла на внешний репозиторий :
-
+touch 1.json 2.json git add git status git commit -m "komit" git pull git push 
 На веб интерфейсе создать файл bug_report.json :
-
+кноп,File создать bug_report.json
 Сделать Commit changes (сохранить) изменения на веб интерфейсе :
 
 На веб интерфейсе модифицировать файл bug_report.json,добавить баг репорт
@@ -39,4 +39,4 @@ git status ; git add ; git commit -m ".." ; git push.
 Синхронизировать внешний и локальный репозиторий JSON:
 
 
-  i try too
+
