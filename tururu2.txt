@@ -30,13 +30,13 @@ touch 1.json 2.json git add git status git commit -m "komit" git pull git push
 На веб интерфейсе создать файл bug_report.json :
 кноп,File создать bug_report.json
 Сделать Commit changes (сохранить) изменения на веб интерфейсе :
-
+редактируем на GitBush File и сommit changes.
 На веб интерфейсе модифицировать файл bug_report.json,добавить баг репорт
 в формате JSON :
-
+{"key":"value"....}
 Сделать Commit changes (сохранить) изменения на веб интерфейсе :
-
+commit changes 
 Синхронизировать внешний и локальный репозиторий JSON:
-
+git fetch ,git branch, git pull, git fetch.
 
 
